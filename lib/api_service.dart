@@ -5,7 +5,7 @@ import '../models.dart';
 
 class ApiService {
   // Use 10.0.2.2 for Android Emulator, 127.0.0.1 for Web/iOS
-  static const String baseUrl = 'http://127.0.0.1:8000';
+  static const String baseUrl = 'https://social-media-backend-mc01.onrender.com';
 
   final Dio _dio = Dio(BaseOptions(baseUrl: baseUrl));
   final _storage = const FlutterSecureStorage();
